@@ -1,0 +1,48 @@
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    align-content: space-between;
+}
+canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#playbutton {
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+.table-list{
+   display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    align-content: space-between;
+    
+}
+.username{
+    width: 25%;
+
+}
+#restart-button{
+    text-decoration: none;
+    color: black;
+}
